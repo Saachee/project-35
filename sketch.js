@@ -16,7 +16,7 @@ function setup() {
   createCanvas(500,500);
 
   dog=createSprite(250,300,150,150);
-  dog.addImage(dogImg);
+  dog.addImage(dogI_mg);
   dog.scale=0.15;
 
   foodStock=database.ref('Food');
@@ -30,7 +30,7 @@ function draw() {
  
   if(keyWentDown(UP_ARROW)){
     writeStock(foodS);
-    dog.addImage(dogImg1);
+    dog.addImage(dog_Img1);
   }
 
   drawSprites();
