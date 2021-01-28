@@ -1,6 +1,6 @@
 
 
-var dog,dogImg,dogImg1;
+
 var database;
 var foodS,foodStock;
 
